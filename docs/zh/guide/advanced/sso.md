@@ -394,7 +394,8 @@ AList单点登录绑定了钉钉，然后在  **`钉钉`**  应用内打开AList
 
 开启 **`SSO兼容模式`** 后需要将单点登录对应的软件内修改一下回调参数链接改成下面的两个回调参数 
 
-- `GitHub` 只需要添加一条：`http(s)://You_Url/api/auth/sso_get_token`
+- `GitHub` 只需要添加一条：`http(s)://You_Url/api/auth/sso_get_token`3.45.0版本为`http(s)://You_Url/api/auth/sso_get_id`
+
 - `微软`和`谷歌`两个都需要添加，可以添加多个，所以只需要新增两条就可以不用删除旧的
 
 ```bash title="New"
